@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html manifest="battleship.appcache">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Sai Prashanth">
+<meta name="viewport" content="width=device-width">
+
+<title>Battleship</title>
+<link rel="stylesheet" href="battleship.css">
+</head>
+
+<body>
+<div id="selector-box">
+<label for="gridsize">Grid Size:</label>
+<select id="gridsize">
+</select>
+
+
+<input type="button" id="start" value="Start">
+</div>
+
+<label>This is a port of the famous app 'Battleship'. This is purely made for showcasing a way to make it run everywhere, the game can also be played offline, try it out ;) The left box is where your ships are, the right ones are the opponents. Keep guessing till either you or the computer win!
+</label>
+<label for="gamebox1" class="hidden">You</label>
+<label for="gamebox2" class="hidden">Computer</label>
+<br>
+<div id="gamebox1" class="gamebox hidden">
+</div>
+
+
+<div id="gamebox2" class="gamebox hidden">
+</div>
+
+
+<footer>
+The code is open to all. Feel free to look at it. This is not made for any commercial purpose (yet) and does not infringe upon any other copyright. If anyone has a problem with the content of this, kindly contact me on Facebook @Sai Pc.
+</footer>
+<script src="battleship.js"></script>
+</body>
+</html>
